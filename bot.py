@@ -5,7 +5,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # ================= CONFIG =================
-BOT_TOKEN = os.getenv("8356307213:AAEPEAraVfOc5Tzn2NxEyo9WpRuHhHV40Ug")   # Railway env variable
+BOT_TOKEN = os.getenv("BOT_TOKEN")   # Railway env variable
 ADMIN_ID = 5758431714
 MAX_HISTORY = 40
 
